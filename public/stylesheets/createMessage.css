@@ -1,0 +1,78 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 198, 81);
+}
+
+body {
+  width: 66%;
+  margin: auto;
+  background-color: rgb(255, 171, 0);
+  box-shadow: 0px 0px 30px rgb(255, 77, 0);
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5% 0% 5% 0%;
+}
+
+div#form {
+  width: 66%;
+  border: 2px solid white;
+  margin: auto;
+  height: 66%;
+  border-radius: 10px;
+}
+
+div#form > form {
+  height: 100%;
+}
+
+div#username {
+  height: 20%;
+  align-items: center;
+  padding: 2% 2% 0% 2%;
+}
+
+div#username > input {
+  height: 75%;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid gray;
+  font-size: 1.7em;
+}
+
+div#messagediv {
+  height: 70%;
+}
+
+div#form > form > button {
+  height: 10%;
+  width: 40%;
+  margin-left: 30%;
+  background-color: rgb(255, 82, 239);
+  border-style: solid solid none solid;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 1.3em;
+}
+
+div#form > form > button:hover {
+  background-color: rgb(228, 72, 212);
+  cursor: pointer;
+}
+
+div#messagediv {
+  padding: 2% 2% 2% 2%;
+}
+
+div#messagediv > textarea {
+  height: 100%;
+  width: 100%;
+  font-size: 2.3em;
+  border-radius: 7px;
+  border: 2px solid gray;
+}

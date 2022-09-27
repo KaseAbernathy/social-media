@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Express</title>
+    <base href="/" />
+    <link href="./../stylesheets/reset.css" rel="stylesheet" />
+    <link href="./../stylesheets/friends.css" rel="stylesheet" />
+    <script type="text/javascript" src="/javascripts/parseDate.js"></script>
+    <script
+      src="/javascripts/verticalNav.js"
+      type="text/javascript"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <vertical-nav></vertical-nav>
+
+    <main>
+      <header>
+        <h1>Friends</h1>
+        <form action="http://localhost:3000/friends/addfriend">
+          <button class="headerButton" type="submit">
+            Send Friend Request
+          </button>
+        </form>
+
+        <form action="http://localhost:3000/friends/getRequests">
+          <button class="headerButton" type="submit">Friend Requests</button>
+        </form>
+      </header>
+
+      <div id="friendsContainer"></div>
+
+      <div id="popUpModal" onclick="close()"></div>
+    </main>
+  </body>
+  <script src="/javascripts/friends.js"></script>
+</html>

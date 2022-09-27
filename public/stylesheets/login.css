@@ -1,0 +1,78 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 249, 249);
+}
+
+body {
+  height: 100%;
+  max-width: 1480px;
+  margin: auto;
+}
+
+body > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+form#form {
+  background-color: rgb(240, 240, 240);
+  width: 30%;
+  margin-left: 35%;
+  padding-bottom: 5%;
+}
+
+form#form > div {
+  width: 80%;
+  margin-left: 10%;
+}
+
+div#usernameContainer {
+  padding-top: 15%;
+  padding-bottom: 1%;
+}
+
+hr {
+  width: 90%;
+  margin: 5% 0% 5% 5%;
+}
+
+div#usernameContainer > label,
+div#usernameContainer > input,
+div#passwordContainer > label,
+div#passwordContainer > input {
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+button {
+  width: 60%;
+  margin-left: 20%;
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 1.1em;
+  padding: 4% 0% 4% 0%;
+  background-color: rgb(124, 185, 255);
+  color: rgb(249, 249, 249);
+}
+
+button:hover,
+a:hover {
+  background-color: rgb(99, 147, 202);
+  cursor: pointer;
+}
+
+a {
+  margin-top: 3%;
+  width: 60%;
+  margin-left: 20%;
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 1.1em;
+  padding: 4% 0% 4% 0%;
+  background-color: rgb(124, 185, 255);
+  color: rgb(249, 249, 249);
+}

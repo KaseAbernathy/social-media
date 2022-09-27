@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+div,
+h2,
+h3,
+h4,
+form,
+button,
+label,
+input,
+section,
+p,
+body,
+ul,
+li a {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
+}
+
+button {
+  text-decoration: none;
+  display: block;
+}

@@ -1,0 +1,119 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 249, 249);
+}
+
+body {
+  display: flex;
+  max-width: 1480px;
+  margin: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+main {
+  width: 80%;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4% 0% 4% 0%;
+}
+
+header > h1 {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(80, 80, 80);
+}
+
+button.headerButton {
+  height: 100%;
+  width: 150px;
+  font-size: 1.3em;
+  padding: 0% 2% 0% 2%;
+  background-color: rgb(124, 185, 255);
+  color: rgb(249, 249, 249);
+  border: 1px solid rgb(150, 150, 150);
+}
+
+button.headerButton:hover {
+  background-color: rgb(99, 147, 202);
+  cursor: pointer;
+}
+
+div#friendsContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div#friendsContainer > form {
+  flex: 1 1 400px;
+  height: 150px;
+}
+
+div#friendsContainer > form > button {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(249, 249, 249);
+  color: rgb(99, 147, 202);
+  border: 1px solid rgb(150, 150, 150);
+  border-right: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+div#friendsContainer > form > button:hover {
+  background-color: rgb(220, 220, 220);
+  cursor: pointer;
+}
+
+div.friendName {
+  font-size: 3.5em;
+}
+
+div.date {
+  font-size: 2em;
+  font-style: italic;
+  color: rgb(100, 100, 100);
+}
+
+div#popUpModal {
+  display: none;
+  position: absolute;
+  width: 33vw;
+  height: 50vh;
+  left: 33vw;
+  top: 25vh;
+  border: 1px solid rgb(150, 150, 150);
+  background-color: rgba(185, 225, 255, 0.9);
+  color: rgb(50, 50, 50);
+  font-size: 2em;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+div#popUpModal > div {
+  width: 100%;
+  padding: 2vw;
+}
+
+div#popUpModal > button {
+  font-size: 1em;
+  width: 30%;
+  padding: 1vh 2vw 1vh 2vw;
+  margin: 10vh 0vw 0vh 12vw;
+  background-color: rgb(124, 185, 255);
+  border: 1px solid rgb(150, 150, 150);
+  color: rgb(249, 249, 249);
+}
+
+div#popUpModal > button:hover {
+  background-color: rgb(99, 147, 202);
+  cursor: pointer;
+}
